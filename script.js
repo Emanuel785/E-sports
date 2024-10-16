@@ -13,7 +13,14 @@ const autoria =  document.getElementByld ('autoria')value;
 
 const newRow = document.createElement('tr');
 newRow.innertHTML =
+<td>${numero}</td>
+<td>${musica}</td>
+<td>${genero}</td>
+<td>${cantor}</td>
+<td>${autoria}</td>
 
+musicTableBody.appendChild(newRow);
 
-
-
+//limpar o formulario
+musicForm.reset();
+});
